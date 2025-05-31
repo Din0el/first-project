@@ -1,4 +1,4 @@
-#Git Навигация
+# Git Навигация
 
 pwd (от англ. <strong><em>p</em></strong><em>rint <strong>w</strong>orking <strong>d</strong>irectory</em>, «показать рабочую папку») — покажи, в какой я папке;
 
@@ -16,9 +16,9 @@ cd ~ — перейди в домашнюю директорию (/Users/Usernam
 
 cd / — перейди в корневую директорию.
 
-####Работа с файлами и папками
+#### Работа с файлами и папками
 
-####Создание
+#### Создание
 
 touch index.html (англ. touch, «коснуться») — создай файл index.html в текущей папке;
 
@@ -26,17 +26,17 @@ touch index.html style.css script.js — если нужно создать ср
 
 mkdir second-project (от англ. <strong><em>m</em></strong><em>a<strong>k</strong>e <strong>dir</strong>ectory</em>, «создать директорию») — создай папку с именем second-project в текущей папке.
 
-####Копирование и перемещение
+#### Копирование и перемещение
 
 cp file.txt ~/my-dir (от англ. <strong><em>c</em></strong><em>o<strong>p</strong>y</em>, «копировать») — скопируй файл в другое место;
 
 mv file.txt ~/my-dir (от англ. <strong><em>m</em></strong><em>o<strong>v</strong>e</em>, «переместить») — перемести файл или папку в другое место.
 
-####Чтение
+#### Чтение
 
 cat file.txt (от англ. <em>con<strong>cat</strong>enate and print</em>, «объединить и распечатать») — распечатай содержимое текстового файла file.txt.
 
-####Удаление
+#### Удаление
 
 rm about.html (от англ. <strong><em>r</em></strong><em>e<strong>m</strong>ove</em>, «удалить») — удали файл about.html;
 
@@ -44,11 +44,11 @@ rmdir images (от англ. <strong><em>r</em></strong><em>e<strong>m</strong>o
 
 rm -r second-project (от англ. <strong><em>r</em></strong><em>e<strong>m</strong>ove,</em> «удалить» + <strong><em>r</em></strong><em>ecursive</em>, «рекурсивный») — удали папку second-project и всё, что она содержит.
 
-##Git Инициализация репозитория
+## Git Инициализация репозитория
 
 git init (от англ. <strong><em>init</em></strong><em>ialize</em>, «инициализировать») — инициализируй репозиторий.
 
-####Подготовка файла к коммиту
+#### Подготовка файла к коммиту
 
 git add todo.txt (от англ. <em>add</em>, «добавить») — подготовь файл todo.txt к коммиту;
 
@@ -56,14 +56,14 @@ git add --all (от англ. <em>add</em>, «добавить» + <em>all</em>,
 
 git add . — подготовь к коммиту текущую папку и все файлы в ней.
 
-####Создание коммита
+#### Создание коммита
 
 git commit -m "Комментарий к коммиту." (от англ. commit, «совершать», «фиксировать» + <strong><em>m</em></strong><em>essage,</em> «сообщение») — сделай коммит и оставь комментарий, чтобы было проще понять, какие изменения внесены.
 
-####Просмотр информации о коммитах
+#### Просмотр информации о коммитах
 
 git log (от англ. <em>log</em>, «журнал [записей]») — выведи подробную историю коммитов.
 
-####Просмотр состояния файлов
+#### Просмотр состояния файлов
 
 git status (от англ. <em>status</em>, «статус», «состояние») — покажи текущее состояние репозитория.
